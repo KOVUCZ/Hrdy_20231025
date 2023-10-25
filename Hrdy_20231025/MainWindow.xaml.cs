@@ -57,7 +57,14 @@ namespace Hrdy_20231025
 
         private void calculate_Click(object sender, RoutedEventArgs e)
         {
-            
+            if(selector.SelectedIndex == 1)
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }
