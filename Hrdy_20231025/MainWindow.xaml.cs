@@ -34,12 +34,24 @@ namespace Hrdy_20231025
                 inputC.Visibility = Visibility.Hidden;
                 inputB.Visibility = Visibility.Visible;
                 inputA.Visibility = Visibility.Visible;
+                labelA.Visibility = Visibility.Visible;
+                labelB.Visibility = Visibility.Visible;
+                labelC.Visibility = Visibility.Hidden;
+                cmA.Visibility = Visibility.Visible;
+                cmB.Visibility = Visibility.Visible;
+                cmC.Visibility = Visibility.Hidden;
             }
             else
             {
                 inputA.Visibility = Visibility.Visible;
                 inputB.Visibility = Visibility.Visible;
                 inputC.Visibility = Visibility.Visible;
+                labelA.Visibility = Visibility.Visible;
+                labelB.Visibility = Visibility.Visible;
+                labelC.Visibility = Visibility.Visible;
+                cmA.Visibility = Visibility.Visible;
+                cmB.Visibility = Visibility.Visible;
+                cmC.Visibility = Visibility.Visible;
             }
         }
 
