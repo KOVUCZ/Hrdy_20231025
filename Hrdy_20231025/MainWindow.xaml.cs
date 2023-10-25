@@ -20,7 +20,9 @@ namespace Hrdy_20231025
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        public int a { get; set; }
+        public int b { get; set; }
+        public int c { get; set; } 
         public MainWindow()
         {
             InitializeComponent();
@@ -57,13 +59,15 @@ namespace Hrdy_20231025
 
         private void calculate_Click(object sender, RoutedEventArgs e)
         {
+
+
             if(selector.SelectedIndex == 1)
             {
-
+                
             }
             else
             {
-
+               // output("2" * ("a" + "b"));
             }
         }
     }
