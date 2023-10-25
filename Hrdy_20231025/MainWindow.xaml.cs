@@ -20,14 +20,32 @@ namespace Hrdy_20231025
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (selector.SelectedIndex == 1)
+            {
+                inputC.Visibility = Visibility.Hidden;
+                inputB.Visibility = Visibility.Visible;
+                inputA.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                inputA.Visibility = Visibility.Visible;
+                inputB.Visibility = Visibility.Visible;
+                inputC.Visibility = Visibility.Visible;
+            }
+        }
 
+        private void calculate_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

@@ -21,7 +21,7 @@
         <TextBox x:Name="inputB" HorizontalAlignment="Left" Height="38" Margin="202,242,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="141" FontSize="15"/>
         <TextBox x:Name="inputC" HorizontalAlignment="Left" Height="38" Margin="202,300,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="141" FontSize="15"/>
         <Label Content="C: FUNGUJE POUZE POKUD JE ZVOLEN TROJÚHELNÍK!" HorizontalAlignment="Left" Height="39" Margin="78,369,0,0" VerticalAlignment="Top" Width="472" FontFamily="Arial Black" FontSize="15" Background="White" Foreground="Red" />
-        <Button x:Name="calculate" Content="SPOČÍTEJ" HorizontalAlignment="Left" Height="35" Margin="376,108,0,0" VerticalAlignment="Top" Width="121" FontFamily="Arial Black" FontSize="18" Foreground="#FF73C334" Background="#FF737171"/>
+        <Button x:Name="calculate" Content="SPOČÍTEJ" HorizontalAlignment="Left" Height="35" Margin="376,108,0,0" VerticalAlignment="Top" Width="121" FontFamily="Arial Black" FontSize="18" Foreground="#FF73C334" Background="#FF737171" Click="calculate_Click"/>
         <Label Content="cm" HorizontalAlignment="Left" Height="39" Margin="363,178,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial Black" FontSize="18"/>
         <Label Content="cm" HorizontalAlignment="Left" Height="39" Margin="363,241,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial Black" FontSize="18"/>
         <Label Content="cm" HorizontalAlignment="Left" Height="39" Margin="363,297,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial Black" FontSize="18"/>
