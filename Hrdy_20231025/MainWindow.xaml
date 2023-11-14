@@ -25,8 +25,8 @@
         <Label x:Name="cmA" Content="cm" HorizontalAlignment="Left" Height="39" Margin="363,178,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial Black" FontSize="18"/>
         <Label x:Name="cmB" Content="cm" HorizontalAlignment="Left" Height="39" Margin="363,241,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial Black" FontSize="18"/>
         <Label x:Name="cmC" Content="cm" HorizontalAlignment="Left" Height="39" Margin="363,297,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial Black" FontSize="18"/>
-        <TextBlock x:Name="output" HorizontalAlignment="Left" Height="161" Margin="536,178,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="186" FontFamily="Arial Black" FontSize="15" Background="#FFBFBFBF"/>
         <Label Content="VÝPIS VÝSLEDKU:" HorizontalAlignment="Left" Height="30" Margin="536,143,0,0" VerticalAlignment="Top" Width="200" FontFamily="Arial Black" FontSize="18"/>
+        <Label x:Name="output" Content="Label" HorizontalAlignment="Left" Height="173" Margin="497,178,0,0" VerticalAlignment="Top" Width="225" Background="Gray"/>
 
     </Grid>
 </Window>

@@ -20,12 +20,11 @@ namespace Hrdy_20231025
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int a { get; set; }
-        public int b { get; set; }
-        public int c { get; set; } 
+        
         public MainWindow()
         {
             InitializeComponent();
+            selector.SelectedIndex = 0;
             
         }
 
@@ -59,16 +58,35 @@ namespace Hrdy_20231025
 
         private void calculate_Click(object sender, RoutedEventArgs e)
         {
-
-
-            if(selector.SelectedIndex == 1)
+            double a, b, c;
+            double s;
+            double obsah;
+            try
             {
-                
+                if(selector.SelectedIndex == 0)
+                {
+                    a = double.Parse(inputA.Text);
+                    b = double.Parse(inputB.Text);
+                    c = double.Parse(inputC.Text);
+                    s = (a + b + c) / 2;
+                    obsah = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+                    output.Content = $"obsah trojúhelníku je {obsah}";
+                }
+                else
+                {
+                    a = double.Parse(inputA.Text);
+                    b = double.Parse(inputB.Text);
+                    obsah = a * b;
+                    output.Content = $"obsah obdélníku je {obsah}";
+
+                }
             }
-            else
+            catch (Exception ex)
             {
-               // output("2" * ("a" + "b"));
+                MessageBox.Show($"ŠPATNĚ ZADANÉ HODNOTY! - {ex.Message}");
             }
+
+            
         }
     }
 }
